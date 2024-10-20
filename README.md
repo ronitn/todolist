@@ -32,13 +32,11 @@ Before you begin, ensure you have met the following requirements:
 
 4.Create a new MySQL database (e.g., todo) using phpMyAdmin or MySQL command line.
 
-5.Set Up Environment File
+5.Set Up Environment File:
   Copy the .env.example file to a new file named .env:
-   ```bash
   cp .env.example .env
 
 6.Update the .env file with your database connection details:
-   ```bash
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306

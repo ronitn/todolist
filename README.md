@@ -38,6 +38,7 @@ Before you begin, ensure you have met the following requirements:
 
 6.Update the .env file with your database connection details:
     ```bash
+    
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306

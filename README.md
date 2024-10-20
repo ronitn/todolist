@@ -13,7 +13,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. *Clone the Repository*
+1. Clone the Repository
 
    Clone the project repository from GitHub:
 
@@ -37,26 +37,27 @@ Before you begin, ensure you have met the following requirements:
   cp .env.example .env
 
 6.Update the .env file with your database connection details:
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=todo
-  DB_USERNAME=root
-  DB_PASSWORD=
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=todo
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 7. Generate Application Key
- ```bash
-   php artisan key:generate
+     ```bash
+     php artisan key:generate
 
 8. Run Migrations
   Run the database migrations to set up the tables:
- ```bash
-  php artisan migrate
+    ```bash
+    php artisan migrate
 
 9. Start the Local Development Server
 
    Start the Laravel development server:
- ```bash
+   ```bash
    php artisan serve
 
    The application will be accessible at http://localhost:8000.

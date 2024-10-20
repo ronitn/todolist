@@ -60,7 +60,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    php artisan serve
 
-   The application will be accessible at http://localhost:8000.
+The application will be accessible at http://localhost:8000.
 
 10.Open Your Browser
   Navigate to http://localhost:8000 in your web browser to see the application in action.

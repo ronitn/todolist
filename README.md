@@ -21,20 +21,24 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/yourusername/todo-app.git
   
 2. Navigate to Project Directory
+    ```bash
    cd todo-app
    
-3. Install Dependencies
+4. Install Dependencies
 
    Install the required PHP packages using Composer:
+    ```bash
    composer install
 
 4.Create a new MySQL database (e.g., todo) using phpMyAdmin or MySQL command line.
 
 5.Set Up Environment File
   Copy the .env.example file to a new file named .env:
+   ```bash
   cp .env.example .env
 
   Update the .env file with your database connection details:
+ ```bash
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
@@ -43,15 +47,18 @@ Before you begin, ensure you have met the following requirements:
   DB_PASSWORD=
 
 6. Generate Application Key
+ ```bash
    php artisan key:generate
 
 7. Run Migrations
   Run the database migrations to set up the tables:
+ ```bash
   php artisan migrate
 
 8. Start the Local Development Server
 
    Start the Laravel development server:
+ ```bash
    php artisan serve
 
    The application will be accessible at http://localhost:8000.

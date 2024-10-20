@@ -1,0 +1,74 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Adjust width for edit form */
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #00796b;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%; /* Full width for input field */
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 20px; /* Space between input and button */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #00796b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Back link styling */
+a {
+    text-decoration: none;
+    color: #00796b;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 10px; /* Space above link */
+    transition: background-color 0.3s ease;
+    background-color: #e0f7fa;
+}
+
+a:hover {
+    background-color: #b2dfdb;
+}

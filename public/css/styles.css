@@ -1,0 +1,123 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #00796b;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #00796b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e0f2f1;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+li.completed {
+    color: #757575;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions form,
+.task-actions a {
+    display: inline-block;
+}
+
+.task-actions button {
+    padding: 5px 15px;
+    font-size: 14px;
+    background-color: #00796b;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.task-actions button.delete {
+    background-color: #d32f2f;
+}
+
+.task-actions button.complete {
+    background-color: #388e3c;
+}
+
+.task-actions button:hover {
+    opacity: 0.9;
+}
+
+.task-actions a {
+    text-decoration: none;
+    color: #00796b;
+    padding: 5px 15px;
+    background-color: #e0f7fa;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.task-actions a:hover {
+    background-color: #b2dfdb;
+}

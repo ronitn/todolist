@@ -37,8 +37,8 @@ Before you begin, ensure you have met the following requirements:
    ```bash
   cp .env.example .env
 
-  Update the .env file with your database connection details:
- ```bash
+6.Update the .env file with your database connection details:
+   ```bash
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
@@ -46,16 +46,16 @@ Before you begin, ensure you have met the following requirements:
   DB_USERNAME=root
   DB_PASSWORD=
 
-6. Generate Application Key
+7. Generate Application Key
  ```bash
    php artisan key:generate
 
-7. Run Migrations
+8. Run Migrations
   Run the database migrations to set up the tables:
  ```bash
   php artisan migrate
 
-8. Start the Local Development Server
+9. Start the Local Development Server
 
    Start the Laravel development server:
  ```bash
@@ -63,7 +63,7 @@ Before you begin, ensure you have met the following requirements:
 
    The application will be accessible at http://localhost:8000.
 
-9.Open Your Browser
+10.Open Your Browser
   Navigate to http://localhost:8000 in your web browser to see the application in action.
 
   Routes
@@ -74,7 +74,7 @@ Before you begin, ensure you have met the following requirements:
     DELETE /todo/{id} - Deletes a Todo item.
     GET /todo/{id}/edit - Displays the edit form for a Todo item.
 
-    Challenges:
-    In website deployment in Heruko it was asking for payment as there in no free version i could find for PHP Laravel project i have not deploy the app.
-    Vercel is free but it is not suitable for php laravel app.
+Challenges:
+In website deployment in Heruko it was asking for payment as there in no free version i could find for PHP Laravel project i have not deploy the app.
+Vercel is free but it is not suitable for php laravel app.
     
